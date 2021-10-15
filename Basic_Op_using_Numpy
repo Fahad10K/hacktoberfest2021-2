@@ -1,0 +1,51 @@
+#Write a python program to implement the followings using Numpy Array
+#Sort the array
+#Reverse the array
+#Add, Multiply two matrix
+#Perfrom broadcasting
+#Perfrom bit operation
+#Perform mathematical operations
+
+import numpy as n
+'''
+arr=n.random.randint(1,20,6)
+arr2=n.random.randint(21,40,6)
+print(arr)
+print(arr2)
+
+print("\nSort Array --> ",n.sort(arr))
+print("\n",arr)
+print("\nReversed array--> ",arr2[::-1])
+
+arr3=n.arange(1,10).reshape(3,3)
+arr4=n.arange(10,19).reshape(3,3)
+arr5=n.random.randint(1,10,3)
+print("\nMatrice Add -->\n",arr3+arr4)
+print("\nMatrice multiplciation ->\n",arr3.dot(arr4))
+print("\nBroadcasting -->\n",arr5+arr3)
+print("\nBitwise Opp -->\n",n.bitwise_and(arr,arr2))
+print("\n",n.bitwise_or(arr,arr2))
+
+print("\nMath Opp-->\n")
+print("Add--> ",arr+arr2,"\nSub --> ",arr2-arr,"\nMulti--> ",arr*arr2,"\nMod",arr%arr2)
+'''
+
+#2
+'''
+a=n.array([5,8,-8,99,0])
+print(a.reshape(5,1))
+'''
+#3
+
+b=n.arange(0,25).reshape(5,5)
+print(b)
+
+x=b[2,:]
+y=len(x)
+z=b[:,4]
+t=b.transpose()
+print("\n2ND row of b\n",x,"\nlast column of b -->\n",z)
+print("\n size of x-> ",y,"\nTranspose->\n",t)
+
+
+
